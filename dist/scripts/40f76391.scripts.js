@@ -1,0 +1,1 @@
+"use strict";(function(){var a=angular.module("homefitApp",[]);a.config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}])}).call(window),angular.module("homefitApp").controller("MainCtrl",["$scope",function(a){a.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]}]);
